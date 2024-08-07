@@ -16,3 +16,13 @@ nnoremap <leader>r :source ~\.vsvimrc<CR>
 nnoremap <C-s> :w<CR>
 inoremap <C-s> <Esc>:w<CR>a
 vnoremap <C-s> <Esc>:w<CR>gv
+
+" Mapping to select all text in normal mode
+nnoremap <C-a> ggVG
+
+" Mapping to select all text in visual mode
+vnoremap <C-a> ggVG
+
+" Mapping to select all text in insert mode
+inoremap <C-a> <Esc>ggVG
+
