@@ -9,7 +9,7 @@ set hlsearch
 vnoremap <C-c> "+y
 map <C-v> "+p
 
-nnoremap <leader>r :source ~\vsvimconf\.vsvimrc<CR>
+nnoremap <leader>r :source ~\.vsvimrc<CR>
 
 " Key mapping to save file with Ctrl+S
 nnoremap <C-s> :w<CR>
