@@ -1,5 +1,6 @@
 let mapleader = ","
 
+set number
 set relativenumber
 set tabstop=4      " Set tab width to 4 spaces
 set shiftwidth=4   " Set indentation width to 4 spaces
